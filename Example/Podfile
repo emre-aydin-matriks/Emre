@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Emre_Example' do
+  pod 'Emre', :path => '../'
+
+  target 'Emre_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
