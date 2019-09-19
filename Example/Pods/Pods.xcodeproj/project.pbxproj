@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0313E9792DDF33185AC85C5C436A3335 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879CB86C8AD86380CA0DBF872BF1942 /* ReplaceMe.swift */; };
 		1527B268BAF6DC8FEB39D96BB09FF247 /* Pods-Emre_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0208EAC7F092763548319806691BECE /* Pods-Emre_Tests-dummy.m */; };
-		3A466D53E7E5550A7FD39E80F97D156F /* Emre-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3939DA3F3CFDE238B88DAFBC9FC987 /* Emre-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB363B282EC86F1CFC25F25518F32D1 /* Emre-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E8E988BB32C4612C2595D65D897117 /* Emre-dummy.m */; };
+		3A466D53E7E5550A7FD39E80F97D156F /* Emre-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C63460E19AD6A1E20AD08592ECCFEA42 /* Emre-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6158E6B0412DF17AA16EA82B32C53BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B98D0DFF56EA1B66B33E8E89868D2397 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BE9A92E7734B642D0E3CFBF8230A3 /* BlinkingLabel.swift */; };
 		CCB9ACA04CD4551E098A535C6EC99152 /* Pods-Emre_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A102CE494FB7E2045B3ACB7BA392E /* Pods-Emre_Example-dummy.m */; };
 		D834A4A65FA9055E4FC70DC7A9B635EE /* Pods-Emre_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A91A2A4DE68915030C98CDCD4BC643 /* Pods-Emre_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D876CE0E1F04CE66AD2945B355764AB3 /* Pods-Emre_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E984E790D3E50021BBBF2915B094C1 /* Pods-Emre_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2CC42ABAF3FD36AF6B6D04FC784835B /* Emre-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9273FF4B90499F6B94EDB0CA57B67F7E /* Emre-dummy.m */; };
 		F9DF012715BBA4281C418B4A34BA6AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		FFB764579F87926658B9B6CB35EA95F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,38 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A59C7F50134DEA43E1A30BC78269D05 /* Emre.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Emre.xcconfig; sourceTree = "<group>"; };
 		1386DC8338801CA8E55F51A5A0777F81 /* Pods-Emre_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emre_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		17A91A2A4DE68915030C98CDCD4BC643 /* Pods-Emre_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Emre_Tests-umbrella.h"; sourceTree = "<group>"; };
-		20BE00FC2ED68998E6BB3ED6F1112BE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		22E984E790D3E50021BBBF2915B094C1 /* Pods-Emre_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Emre_Example-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C53A5CF3F3E0766740331E00B897767 /* Pods-Emre_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emre_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		40BB7A59F1E4FE6E6A2C7D38F5DF9AD7 /* Emre-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Emre-prefix.pch"; sourceTree = "<group>"; };
 		4EA14142C4EF40659A0FBEBADFECFD6E /* Pods-Emre_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emre_Tests-Info.plist"; sourceTree = "<group>"; };
-		4F3939DA3F3CFDE238B88DAFBC9FC987 /* Emre-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Emre-umbrella.h"; sourceTree = "<group>"; };
-		528EAB021B8348B1A7C3121CBEB41CAD /* Emre.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Emre.modulemap; sourceTree = "<group>"; };
 		5CB428BBD200A0C817F0E26B9E3BAE52 /* Pods-Emre_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Emre_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6254F919092B2238C0ABF5E326E8237F /* Pods-Emre_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emre_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6EDE62772706A8F8094782B862303689 /* Emre-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Emre-Info.plist"; sourceTree = "<group>"; };
-		72890FC8D326B0448619440D456D1EC0 /* Pods_Emre_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emre_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		829C69BDC7DF38EF1367A05855FBE0BB /* Emre.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Emre.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72890FC8D326B0448619440D456D1EC0 /* Pods_Emre_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Emre_Example.framework; path = "Pods-Emre_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		836EB4A51E749C3EBC99822EB473DA32 /* Pods-Emre_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Emre_Example-Info.plist"; sourceTree = "<group>"; };
-		8879CB86C8AD86380CA0DBF872BF1942 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Emre/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9208429DD65CDA131A0A63C24F91E167 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		910D253C46DAFE6D4AB855CA3D733A93 /* Emre-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Emre-Info.plist"; sourceTree = "<group>"; };
 		92517056043E89E1E26586D4F2C9A0B0 /* Pods-Emre_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Emre_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9273FF4B90499F6B94EDB0CA57B67F7E /* Emre-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Emre-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADB59D7C009BC854F50DAC1C171EE099 /* Emre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Emre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A308365A859C6D56D712D366BDA86EE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A8E8E988BB32C4612C2595D65D897117 /* Emre-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Emre-dummy.m"; sourceTree = "<group>"; };
+		ADB59D7C009BC854F50DAC1C171EE099 /* Emre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Emre.framework; path = Emre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8B3DBB8784CBF1CD1308E0EBD85DD8 /* Pods-Emre_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emre_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BF1011F8BF6A3600F1CFB165218FECA2 /* Pods-Emre_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emre_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4DA3A2EBBBCDD233A77FC629A5DB676 /* Pods-Emre_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Emre_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C63460E19AD6A1E20AD08592ECCFEA42 /* Emre-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Emre-umbrella.h"; sourceTree = "<group>"; };
 		C7F84DD3F188CA3509D6331BA1859BCF /* Pods-Emre_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Emre_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8419E72D84162B9C56D77F8D11BA900 /* Emre.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Emre.modulemap; sourceTree = "<group>"; };
+		D318B482F23B5B8978227CCBC3A49995 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5601A77C02227BD9AFA62B1E0621D06 /* Emre.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Emre.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D95A102CE494FB7E2045B3ACB7BA392E /* Pods-Emre_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Emre_Example-dummy.m"; sourceTree = "<group>"; };
+		E09CF90F843088611F49CE5C940B350F /* Emre.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Emre.xcconfig; sourceTree = "<group>"; };
 		EF24184C4C9539C48FD29009620F056E /* Pods-Emre_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Emre_Example.modulemap"; sourceTree = "<group>"; };
 		F0208EAC7F092763548319806691BECE /* Pods-Emre_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Emre_Tests-dummy.m"; sourceTree = "<group>"; };
-		F32E98AEFFD0DCB0937E12002B3FB1F0 /* Pods_Emre_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emre_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32E98AEFFD0DCB0937E12002B3FB1F0 /* Pods_Emre_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Emre_Tests.framework; path = "Pods-Emre_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6BE9A92E7734B642D0E3CFBF8230A3 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = Emre/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
 		FCC4930C2756A7FC89E54DF051717C03 /* Pods-Emre_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Emre_Tests.modulemap"; sourceTree = "<group>"; };
+		FE118BDD0286FEEED8B10CBFCB28E54A /* Emre-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Emre-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,22 +99,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06424774CDF365C19F571834B82FA70E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8419E72D84162B9C56D77F8D11BA900 /* Emre.modulemap */,
+				E09CF90F843088611F49CE5C940B350F /* Emre.xcconfig */,
+				A8E8E988BB32C4612C2595D65D897117 /* Emre-dummy.m */,
+				910D253C46DAFE6D4AB855CA3D733A93 /* Emre-Info.plist */,
+				FE118BDD0286FEEED8B10CBFCB28E54A /* Emre-prefix.pch */,
+				C63460E19AD6A1E20AD08592ECCFEA42 /* Emre-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Emre";
+			sourceTree = "<group>";
+		};
 		265F874CBA4B6B32DA4DEE7C2C47FD26 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3A841C3F1B34A45A0303CAA72EC482A /* Emre */,
+				9900EC02E4FA3276C3E3FDB7EEDC6EF5 /* Emre */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		272B15AF63482B890DA2007422CFA906 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				829C69BDC7DF38EF1367A05855FBE0BB /* Emre.podspec */,
-				20BE00FC2ED68998E6BB3ED6F1112BE6 /* LICENSE */,
-				9208429DD65CDA131A0A63C24F91E167 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8F27A44AAF17C5113D9B8CC6C56EAA77 /* Products */ = {
@@ -125,6 +129,17 @@
 				F32E98AEFFD0DCB0937E12002B3FB1F0 /* Pods_Emre_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9900EC02E4FA3276C3E3FDB7EEDC6EF5 /* Emre */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BE9A92E7734B642D0E3CFBF8230A3 /* BlinkingLabel.swift */,
+				E11D1D577A0F5B10BA8774D06ABE854D /* Pod */,
+				06424774CDF365C19F571834B82FA70E /* Support Files */,
+			);
+			name = Emre;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9A02F1E52450E26EC6FB28D49324E5CC /* Pods-Emre_Tests */ = {
@@ -141,20 +156,6 @@
 			);
 			name = "Pods-Emre_Tests";
 			path = "Target Support Files/Pods-Emre_Tests";
-			sourceTree = "<group>";
-		};
-		9DF0C99210E89A20E93D02BDDB8B0DCA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				528EAB021B8348B1A7C3121CBEB41CAD /* Emre.modulemap */,
-				0A59C7F50134DEA43E1A30BC78269D05 /* Emre.xcconfig */,
-				9273FF4B90499F6B94EDB0CA57B67F7E /* Emre-dummy.m */,
-				6EDE62772706A8F8094782B862303689 /* Emre-Info.plist */,
-				40BB7A59F1E4FE6E6A2C7D38F5DF9AD7 /* Emre-prefix.pch */,
-				4F3939DA3F3CFDE238B88DAFBC9FC987 /* Emre-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Emre";
 			sourceTree = "<group>";
 		};
 		B2B306176270286CE0F0426B6ED6974C /* Targets Support Files */ = {
@@ -210,15 +211,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F3A841C3F1B34A45A0303CAA72EC482A /* Emre */ = {
+		E11D1D577A0F5B10BA8774D06ABE854D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8879CB86C8AD86380CA0DBF872BF1942 /* ReplaceMe.swift */,
-				272B15AF63482B890DA2007422CFA906 /* Pod */,
-				9DF0C99210E89A20E93D02BDDB8B0DCA /* Support Files */,
+				D5601A77C02227BD9AFA62B1E0621D06 /* Emre.podspec */,
+				A308365A859C6D56D712D366BDA86EE9 /* LICENSE */,
+				D318B482F23B5B8978227CCBC3A49995 /* README.md */,
 			);
-			name = Emre;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +256,7 @@
 			buildConfigurationList = 3F88E0A341111206910D49220F01318E /* Build configuration list for PBXNativeTarget "Emre" */;
 			buildPhases = (
 				DFCD1DF75F788545F838F7402668E8FF /* Headers */,
-				9B5A417A0437565EF644B5289744254E /* Sources */,
+				94925C5542C17ABB227CC40B4C861CFB /* Sources */,
 				8B3CC6F41CA3DE17A5312D2A3FE377A5 /* Frameworks */,
 				76C86123A7F76B5EAFF42CD7930247E5 /* Resources */,
 			);
@@ -376,12 +376,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B5A417A0437565EF644B5289744254E /* Sources */ = {
+		94925C5542C17ABB227CC40B4C861CFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CC42ABAF3FD36AF6B6D04FC784835B /* Emre-dummy.m in Sources */,
-				0313E9792DDF33185AC85C5C436A3335 /* ReplaceMe.swift in Sources */,
+				B98D0DFF56EA1B66B33E8E89868D2397 /* BlinkingLabel.swift in Sources */,
+				1BB363B282EC86F1CFC25F25518F32D1 /* Emre-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +438,7 @@
 		};
 		7E50EA1953FCEC175994195691E89DC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A59C7F50134DEA43E1A30BC78269D05 /* Emre.xcconfig */;
+			baseConfigurationReference = E09CF90F843088611F49CE5C940B350F /* Emre.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -460,7 +460,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -554,7 +554,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -659,7 +660,7 @@
 		};
 		E4083A666A0C451F22BF86135B086550 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A59C7F50134DEA43E1A30BC78269D05 /* Emre.xcconfig */;
+			baseConfigurationReference = E09CF90F843088611F49CE5C940B350F /* Emre.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -681,7 +682,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
