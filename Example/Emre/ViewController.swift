@@ -11,7 +11,6 @@ import Emre
 
 class ViewController: UIViewController {
     
-    var isBlinking = false
     let blinkingLabel = BlinkingLabel(frame: CGRect(x: 150, y: 200, width: 200, height: 30))
 
     override func viewDidLoad() {
@@ -23,7 +22,6 @@ class ViewController: UIViewController {
         blinkingLabel.font = UIFont.systemFont(ofSize: 20)
         view.addSubview(blinkingLabel)
         blinkingLabel.startBlinking()
-        isBlinking = true
     }
 
     override func didReceiveMemoryWarning() {
