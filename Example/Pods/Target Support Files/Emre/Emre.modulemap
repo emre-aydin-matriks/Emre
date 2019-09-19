@@ -1,0 +1,6 @@
+framework module Emre {
+  umbrella header "Emre-umbrella.h"
+
+  export *
+  module * { export * }
+}
